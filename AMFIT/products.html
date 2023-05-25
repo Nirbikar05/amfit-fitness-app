@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body style="background-color: rgb(218, 232, 237);">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-0 fixed-top">
+        <div class="container-fluid navbgviolet">
+            <a class="navbar-brand" href="#"><span id="am">AM</span><span id="bar">|</span><span id="fit">FIT</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogs.html">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tutorials.html">Tutorials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dietplan.html" class="nav-link">Diet-plan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="calculator.html" class="nav-link">Calculator</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid my-5">
+        <div class="container">
+            <div class="row">
+                <div class="dropdown-center">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Categories
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="clothings.html">Clothings</a></li>
+                        <li><a class="dropdown-item" href="accessories.html">Gym Accessories</a></li>
+                        <li><a class="dropdown-item" href="suppliments.html">Nutrion Suppliments</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row producthome">
+                <h3>Fitness Accessories:</h3>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/41vQRuRTc2L._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a
+                                href="https://www.amazon.in/Nivia-11041-Cotton-Thumb-Support/dp/B07PW9SX6R/ref=sr_1_3_sspa?adgrpid=1318316047670901&hvadid=82395012026243&hvbmt=be&hvdev=c&hvlocphy=1669&hvnetw=o&hvqmt=e&hvtargid=kwd-82395631974284%3Aloc-90&hydadcr=5060_2193933&keywords=wrist%2Bwrap&qid=1683612081&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1">Nivia
+                                Wrist support Best buy link</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/51v7spTeZHL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a
+                                href="https://www.amazon.in/Fitness-Mantra%C2%AE-Exercise-Thickness-Anti-Slip/dp/B08HQCX3DP/ref=sr_1_11?keywords=yoga+mats&qid=1683612622&sprefix=yoga+%2Caps%2C394&sr=8-11">Fitness
+                                Mantra® Yoga Mat Best buy link</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/813g2hRYuoL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a
+                                href="https://www.amazon.in/Genuine-Comfortable-Adjustable-Stabilizing-Weightlifting/dp/B07SNR3C78/ref=sr_1_3_sspa?crid=2YK7B93K8BILT&keywords=lifting+belt&qid=1683613265&sprefix=lifitng+belt%2Caps%2C352&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Aurion
+                                Lifting Belt Best buy link</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/61jSkHM6LPL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a
+                                href="https://www.amazon.in/Powerhawke-Lycra-Sports-Fitness-Shorts/dp/B08D7PC1T2/ref=sr_1_29?crid=2NXH8ZFT9LOW5&keywords=hrx+training+shorts&qid=1683613432&sprefix=hrx+traing+shorts%2Caps%2C201&sr=8-29">Powerhawke
+                                Navy NS shorts Best buy link</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/71DYbnDt+5L._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a
+                                href="https://www.amazon.in/Fashnex-Skipping-Rope-Women-Children/dp/B091PXCDX2/ref=sr_1_2_sspa?keywords=skipping+rope&qid=1683614248&sprefix=skipp%2Caps%2C437&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Fashnex
+                                Skipping Rope Best buy link</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/61sqLh4yCjL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a
+                                href="https://www.amazon.in/Puma-Unisex-Adult-Shuttle-Blue-Cherry-Tomato-White/dp/B0BVMDCSKG/ref=sxin_25_slsr_d_i_fsnewarrivals_fa_bi_3_B0BVMDCSKG?content-id=amzn1.sym.75fb7dbe-1dae-415e-a068-997b8c3956f7%3Aamzn1.sym.75fb7dbe-1dae-415e-a068-997b8c3956f7&crid=1AHKHVK83O3EG&cv_ct_cx=puma%2Bshoes%2Bfor%2Bmen&keywords=puma%2Bshoes%2Bfor%2Bmen&pd_rd_i=B0BVMDCSKG&pd_rd_r=9a205af7-6595-4dde-ba9e-48d055249e3b&pd_rd_w=fKwU6&pd_rd_wg=mjxiO&pf_rd_p=75fb7dbe-1dae-415e-a068-997b8c3956f7&pf_rd_r=CEHADM5NWTC0BB2WAK09&qid=1683614351&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=puma%2Bsh%2Caps%2C341&sr=1-4-5b2ee5ec-0735-4782-9f3a-9d21a55133d0&th=1&psc=1">Puma
+                                Shuttle Aero Best buy link</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row producthome">
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/61I3ILUjKXL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a
+                                href="https://www.amazon.in/Park-Avenue-Solid-T-Shirt-PCKY01073-N7_Green/dp/B09XQZRGRG/ref=sr_1_22_sspa?keywords=rapid+dry+t+shirts+for+men&qid=1683621070&sprefix=rapiddry%2Caps%2C458&sr=8-22-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1">Park
+                                Avenue Men T-Shirt Best buy link</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/71AF5VeQrJL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a
+                                href="https://www.amazon.in/Hykes-Compression-Support-Running-Cycling/dp/B07HKW1YP1/ref=sr_1_6?crid=3U6WZ0WUNMZ5H&keywords=knee+caps&qid=1683621234&sprefix=knee+caps%2Caps%2C361&sr=8-6">Hykes
+                                Knee cap Best buy link</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/41MQico4+vL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a
+                                href="https://www.amazon.in/Boldfit-Unisex-Adjustable-Summer-Airholes/dp/B0BJ92CN22/ref=sr_1_1_sspa?keywords=caps+men&qid=1683621335&sprefix=cap%2Caps%2C609&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Boldfit
+                                Head Caps Best buy link</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/817A09Sgu-L._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a
+                                href="https://www.amazon.in/Dumbells-Strength-Training-Fitness-Workout/dp/B09GYFKJ4Z/ref=sr_1_2_sspa?keywords=dumbbells+set+for+home+gym&qid=1683621427&sprefix=dum%2Caps%2C433&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">AURION
+                                Dumbbell Best buy link</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/91Ov-x9d3qL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a
+                                href="https://www.amazon.in/SFANE-Duffel-Shoulder-Women-Compartment/dp/B07ZC77WTW/ref=sr_1_8?crid=12SW7ACMYZ2SA&keywords=gym+bag&qid=1683621574&sprefix=gym+bag%2Caps%2C341&sr=8-8">SFANE
+                                Polyester 23 cms Best buy link</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/51lKJfKikhL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a
+                                href="https://www.amazon.in/Nutrabay-Micronised-Monohydrate-Supplement-Performance/dp/B09VP6HL5J/ref=sr_1_2_sspa?keywords=creatine+monohydrate&qid=1683621684&sprefix=crea%2Caps%2C447&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Creatine
+                                Monohydrate Best buy link</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row producthome">
+                <h3>Suppliments:</h3>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.nutrabay.com/wp-content/uploads/2023/04/NB-NUT-1047-01-01-340x340.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a href="https://nutrabay.com/product/nutrabay-pure-100-soy-protein-isolate/">
+                                Nutrabay Pure 100% Soy Protein Isolate</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.nutrabay.com/wp-content/uploads/2023/03/NB-NUT-1026-01-01-340x340.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a href="https://nutrabay.com/product/nutrabay-pro-multivitamin-for-men/">
+                                Nutrabay Pro Active Multivitamin for Men</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.nutrabay.com/wp-content/uploads/2023/02/NB-NUT-1027-01-01-340x340.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a href="https://nutrabay.com/product/nutrabay-pro-fish-oil-triple-strength-1000mg/">
+                                Nutrabay Pro Fish Oil Omega 3</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://cdn.nutrabay.com/wp-content/uploads/2022/10/NB-NUT-1050-01-01-340x340.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a
+                                href="https://nutrabay.com/product/nutrabay-wellness-apple-cider-vinegar-with-mother-of-vinegar/">
+                                Nutrabay Wellness Apple Cider Vinegar </a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://rukminim1.flixcart.com/image/612/612/kovsvbk0/protein-supplement/k/q/h/whey-gold-100-whey-isolate-nut5282-04-muscleblaze-original-imag38kkdvdggq9g.jpeg?q=70"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a
+                                href="https://www.flipkart.com/muscleblaze-whey-gold-100-isolate-protein/p/itmf53ndvxtavnnr?pid=PSLF53HYYUK7QCXF&lid=LSTPSLF53HYYUK7QCXFJ0ZZNH&marketplace=FLIPKART&q=mb+whey+protein+isolate&store=hlc%2Fetg%2F1rx&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&fm=search-autosuggest&iid=43497410-c4a7-4137-aa00-51c7108551fe.PSLF53HYYUK7QCXF.SEARCH&ppt=sp&ppn=sp&ssid=3eb03c85kw0000001683639370272&qH=926a421bf70085a8">
+                                MUSCLEBLAZE Whey Gold Whey Isolate </a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://rukminim1.flixcart.com/image/612/612/korijrk0/protein-supplement/s/s/5/raw-whey-isolate-90-unflavored-1-1lb-nut5031-03-muscleblaze-original-imag35zdrcfsrjm7.jpeg?q=70"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a
+                                href="https://www.flipkart.com/muscleblaze-raw-whey-isolate-90-digestive-enzymes-protein/p/itm93ce9195c6052?pid=PSLG35ZDURBNFHKB&lid=LSTPSLG35ZDURBNFHKBAPJXVD&marketplace=FLIPKART&q=mb+whey+protein+isolate&store=hlc%2Fetg%2F1rx&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&fm=search-autosuggest&iid=43497410-c4a7-4137-aa00-51c7108551fe.PSLG35ZDURBNFHKB.SEARCH&ppt=sp&ppn=sp&qH=926a421bf70085a8">
+                                MUSCLEBLAZE Raw Whey Isolate 90%</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row producthome">
+                <h3>Diet:</h3>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/61JYbpROYpL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a href="https://www.amazon.in/MuscleBlaze-Probiotics-Breakfast-Management-Chocolate/dp/B0BDMHCG87/ref=sr_1_2_sspa?keywords=oats&qid=1683695329&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                                MuscleBlaze High Protein Oats</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/81GrjcmGyRL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a href="https://www.amazon.in/MYFITNESS-Peanut-Butter-Crunchy-510g/dp/B07HB6175L/ref=sr_1_8?crid=3D9R16BGNI34L&keywords=peanut+butter&qid=1683695408&sprefix=peanut+butter%2Caps%2C282&sr=8-8">
+                                MYFITNESS Original Peanut Butter Crunchy</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/71M9GocseaL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a href="https://www.amazon.in/Kadaknath-Agro-World-Organic-Cholesterol/dp/B08WPLFY6Z/ref=sr_1_1_sspa?crid=IVDHTTDCWEFY&keywords=egg&qid=1683695641&sprefix=egg%2Caps%2C250&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                                High Protein Eggs. Rich in Iron Content</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/61e98oiE1iL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a href="https://www.amazon.in/Yogabar-Protein-Chocolate-Brownie-Bars/dp/B01LQB6LXG/ref=sr_1_4_sspa?crid=TF7HAHC8AAJ2&keywords=protein%2Bbar&qid=1683695719&sprefix=protein%2Bbar%2Caps%2C224&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1">
+                                Yogabars Protein Bars Chocolate Brownie</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/714aBovyiqL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a href="https://www.amazon.in/Saffola-Mealmaker-Chunks-Supersoft-Technology/dp/B08WQPZ1JB/ref=sr_1_1_sspa?crid=1K4I5UG6CIGXX&keywords=soya+chunks&qid=1683695815&sprefix=soya+chunks%2Caps%2C231&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                                Saffola Soya Chunks Supersoft</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/61qvF4OVMRL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a href="https://www.amazon.in/ID-Fresh-Food-Natural-Paneer/dp/B078LY1XB4/ref=sr_1_6_f3?keywords=paneer&qid=1683695914&sprefix=pane%2Caps%2C223&sr=8-6">
+                                Id Soft and Creamy Paneer, 200 g</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row producthome">
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/81dOnK2fB+L._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a href="https://www.amazon.in/Sri-Satymev-Hybird-Broccoli-Seeds/dp/B01LYWKSNH/ref=sr_1_2?crid=1S5V3E7VTH6XT&keywords=brokoli&qid=1683695983&sprefix=brokoli%2Caps%2C243&sr=8-2">
+                                Hybird Broccoli Seeds (50 Seeds) </a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/91eEvcDs51L._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a href="https://www.amazon.in/Amazon-Brand-Vedaka-Popular-Moong/dp/B07BL6C5YR/ref=sr_1_2_sspa?keywords=moong+dal&qid=1683696313&sprefix=moongh%2Caps%2C573&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                                Vedaka Popular Yellow Moong Dal </a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/71LtAovHIsL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a href="https://www.amazon.in/Amazon-Brand-Unpolished-Millets-Sajjalu/dp/B0BWHS95V9/ref=sr_1_6?crid=3VXQ50UHCZ1TI&keywords=bajra&qid=1683696408&sprefix=bajra%2Caps%2C272&sr=8-6">
+                                Vedaka Unpolished Bajra/Pearl Millets</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/71FPW3BCMhL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a href="https://www.amazon.in/NESTLE-GOLD-Crunchy-Flakes-Breakfast/dp/B09BFHYJP8/ref=sr_1_1_sspa?keywords=corn+flakes&qid=1683697431&sprefix=corn+fla%2Caps%2C331&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                                NESTLE GOLD Crunchy Oats & Corn Flakes</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/41ogpWAoQVL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a href="https://www.amazon.in/Only-Gluten-Mixed-Grain-Bread/dp/B0BQ3CW45G/ref=sr_1_2_sspa?keywords=brown+bread&qid=1683697752&sprefix=brown+bre%2Caps%2C398&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                                Gluten Free Mixed Grain Loaf Bread</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="box col-md-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/81MFyyoJ+RL._AC_UL600_FMwebp_QL65_.jpg"
+                            class="card-img-top" alt="..." style="height: 25vh;">
+                        <div class="card-body">
+                            <a href="https://www.amazon.in/Talegaon-Farms-Pure-Homemade-Ghee/dp/B07M5LYJFR/ref=sr_1_3_sspa?crid=3KXLC1PYC78IA&keywords=ghee&qid=1683698126&sprefix=ghe%2Caps%2C606&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                                Talegaon Farms Pure Cow Ghee</a>
+                        </div>
+                        <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <p>At the heart of AM|FIT's platform is the World’s First & largest Indian Calorie Tracker, which
+                        allows
+                        users to track their food, exercise and weight, easily via their smartphone or computer while
+                        continuously
+                        analyzing the user’s data and provide powerful insights that ensure that users stay within their
+                        calorie/nutrition budgets. </p>
+                    <div class="contact">
+                        <img loading="lazy" src="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/call.svg"
+                            fetchpriority="low" alt="footer"><a href="tel:+91 85 277 32 632">+91 85 277 32 632</a><br>
+                        <img loading="lazy" src="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/email.svg"
+                            fetchpriority="low" alt="footer">
+                        <a href="mailto:info@Muscleblaze.com">supportamfitxxx@gmail.com</a>
+                    </div>
+                </div>
+                <div class="offset-1 col-md-2 discover">
+                    <span><big><b>Discover</b></big></span><br>
+                    <a href="calculator.html"><span>nutrients calculator</span></a><br>
+                    <a href="caloriecal.html"><span>calorie calculator</span></a><br>
+                    <a href="proteincal.html"><span>protein calculator</span></a><br>
+                    <a href="dietplan.html"><span>diet plan</span></a><br>
+                    <a href="tutorials.html"><span>fitness tutorial</span></a><br>
+                    <a href="blogs.html"><span>blogs</span></a><br>
+                    <a href="products.html"><span>fitness products</span></a><br>
+                </div>
+                <div class="col-md-2 discover">
+                    <span><big><b>Categories</b></big></span><br>
+                    <a href="calculator.html"><span>calculator</span></a><br>
+                    <a href="products.html"><span>products</span></a><br>
+                    <a href="tutorials.html"><span>tutorial</span></a><br>
+                    <a href="blogs.html"><span>blogs</span></a><br>
+                    <a href="dietplan.html"><span>diet plan</span></a><br>
+                </div>
+                <div class="col-md-2 discover">
+                    <span><big><b>Contact Us</b></big></span><br>
+                    <a href="instagram.com"><span>instagram</span></a><br>
+                    <a href="facebook.com"><span>facebook</span></a><br>
+                    <a href="https://twitter.com/amnirbi"><span>twitter</span></a><br>
+                    <a href="linkedin.com"><span>linkedin</span></a><br>
+                    <a href="#"><span>supportamfitxxx@gamil.com</span></a><br>
+                </div>
+                <div class="col-md-2 discover">
+                    <a href="index.html"><span><big><b>Home</b></big></span><br></a>
+                </div>
+            </div>
+        </div>
+        <div class="container social">
+            <div class="row">
+                <ul class="desk-footer__social"><a href="https://instagram.com/muscleblaze/" target="_blank"
+                        rel="noopener noreferrer"><img
+                            data-original="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/insta_new.png"
+                            class="offscreenimage lazy" width=""
+                            src="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/insta_new.png" alt=""
+                            itemprop="" fetchpriority="auto"></a><a href="https://twitter.com/MuscleBlaze"
+                        target="_blank" rel="noopener noreferrer"><img
+                            data-original="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/twitter_new.png"
+                            class="offscreenimage lazy" width=""
+                            src="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/twitter_new.png" alt=""
+                            itemprop="" fetchpriority="auto"></a><a href="https://www.youtube.com/user/muscleblaze"
+                        target="_blank" rel="noopener noreferrer"><img
+                            data-original="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/youtube_new.png"
+                            class="offscreenimage lazy" width=""
+                            src="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/youtube_new.png" alt=""
+                            itemprop="" fetchpriority="auto"></a><a href="https://www.facebook.com/MuscleBlaze"
+                        target="_blank" rel="noopener noreferrer"><img
+                            data-original="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/fb_new.png"
+                            class="offscreenimage lazy" width=""
+                            src="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/fb_new.png" alt="" itemprop=""
+                            fetchpriority="auto"></a><a href="https://www.linkedin.com/company/muscleblaze/"
+                        target="_blank" rel="noopener noreferrer"><img
+                            data-original="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/linkedin_new.svg"
+                            class="offscreenimage lazy" width=""
+                            src="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/linkedin_new.svg" alt=""
+                            itemprop="" fetchpriority="auto"></a></ul>
+            </div>
+        </div>
+        <div class="copyrights row">
+            <p id="footerbranding"><span id="am">AM</span><span id="bar">|</span
+                ><span id="fit">FIT</span></p>
+            <p>All rights reserved &copy; healthifyme.com</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</body>
+
+</html>

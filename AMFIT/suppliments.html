@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body style="background-color: rgb(218, 232, 237);">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-0 fixed-top">
+        <div class="container-fluid navbgviolet">
+            <a class="navbar-brand" href="#"><span id="am">AM</span><span id="bar">|</span><span id="fit">FIT</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogs.html">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tutorials.html">Tutorials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dietplan.html" class="nav-link">Diet-plan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="calculator.html" class="nav-link">Calculator</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <h3>Whey protein:</h3>
+        <div class="row">
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/71XkPJHr40L._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/Optimum-Nutrition-Standard-Protein-Powder/dp/B002DYIZH6/ref=sr_1_1_sspa?keywords=on+whey+protein&qid=1684386276&sprefix=on+whey%2Caps%2C309&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                            Optimum Nutrition (ON) Gold Standard 100% Whey</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/611OwYkWOZL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/MuscleBlaze-Iso-Zero-Patent-Published-Absorption-Certified/dp/B0B6RRNFJW/ref=sr_1_1_sspa?crid=3P8ZVP01YXXLH&keywords=mb+whey+protein&qid=1684386390&sprefix=mb+whey+protein%2Caps%2C365&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                            MuscleBlaze Biozyme Iso-Zero, Low Carb, 100% Pure Whey Protein</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/51lKJfKikhL._AC_UL960_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/AS-Nutrition-Creatine-Monohydrate-Building/dp/B07Q8JJLFL/ref=sxin_16_sbv_search_btf?content-id=amzn1.sym.59f7581a-8b36-4cad-8093-b8a6e1e96987%3Aamzn1.sym.59f7581a-8b36-4cad-8093-b8a6e1e96987&crid=3P8ZVP01YXXLH&cv_ct_cx=mb+whey+protein&keywords=mb+whey+protein&pd_rd_i=B07Q8JJLFL&pd_rd_r=da48a234-3cb0-4f02-a958-491075da2020&pd_rd_w=BRqH8&pd_rd_wg=WdMq8&pf_rd_p=59f7581a-8b36-4cad-8093-b8a6e1e96987&pf_rd_r=5SWWETY3JFH461B9KJ3W&qid=1684386390&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=mb+whey+protein%2Caps%2C365&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81">
+                            AS-IT-IS Nutrition Creatine Monohydrate 100gms</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61XyXlWobqL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/Bigmuscles-Nutrition-Premium-Chocolate-Concentrate/dp/B08HHCY41Z/ref=sr_1_12?crid=3P8ZVP01YXXLH&keywords=mb+whey+protein&qid=1684386390&sprefix=mb+whey+protein%2Caps%2C365&sr=8-12">
+                            Bigmuscles Nutrition Premium Gold Whey 2Kg Whey Protein Isolate</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61NqfjdfDIL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/Muscle-Asylum-Building-Recovery-Chocolate/dp/B0B6CCZDGK/ref=sr_1_29?crid=3P8ZVP01YXXLH&keywords=mb+whey+protein&qid=1684386390&sprefix=mb+whey+protein%2Caps%2C365&sr=8-29">
+                            Muscle Asylum Premium Whey Protein 1kg (Double Chocolate) </a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61drm3M-xRL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/GNC-Performance-Endurance-Formulated-Chocolate/dp/B0B97S19P4/ref=sr_1_41?crid=3P8ZVP01YXXLH&keywords=mb+whey+protein&qid=1684386390&sprefix=mb+whey+protein%2Caps%2C365&sr=8-41">
+                            GNC Pro Performance 100% Whey Protein Powder </a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Creatine Monohydrate:</h3>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61xSjGOg+DL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/GNC-Performance-Monohydrate-Unflavoured-Formulated/dp/B0B97JMMK4/ref=sr_1_1_sspa?crid=FUN5PEVS43HF&keywords=creatine+monohydrate&qid=1684386787&sprefix=creatine+monohydrate%2Caps%2C246&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                            GNC Pro Performance Creatine Monohydrate, (Unflavoured, 100 grams Powder)</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/51ewH8BYRsL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/Creatine-Servings-Monohydrate-Recovery-Unflavored/dp/B08WX6QQ12/ref=sr_1_3_sspa?crid=FUN5PEVS43HF&keywords=creatine+monohydrate&qid=1684386787&sprefix=creatine+monohydrate%2Caps%2C246&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                            Fast&Up Creatine Monohydrate (Pack of 250g Powder, 83 Servings, Unflavored)</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/71O6K0SMG1L._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/Optimum-Nutrition-Micronized-Creatine-Monohydrate/dp/B002DYIZEE/ref=sr_1_7?crid=FUN5PEVS43HF&keywords=creatine+monohydrate&qid=1684386787&sprefix=creatine+monohydrate%2Caps%2C246&sr=8-7">
+                            Optimum Nutrition (ON) Micronized Creatine Powder</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61axVkbxW-L._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/Nutrabay-Micronised-Monohydrate-Supplement-Performance/dp/B09VP6HL5J/ref=sr_1_14?crid=FUN5PEVS43HF&keywords=creatine+monohydrate&qid=1684386787&sprefix=creatine+monohydrate%2Caps%2C246&sr=8-14">
+                            Nutrabay Pure Micronised Creatine Monohydrate Powder</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/51lKJfKikhL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/AS-Nutrition-Creatine-Monohydrate-Building/dp/B07Q8JJLFL/ref=sr_1_2_sspa?crid=FUN5PEVS43HF&keywords=creatine+monohydrate&qid=1684386787&sprefix=creatine+monohydrate%2Caps%2C246&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                            AS-IT-IS Nutrition Creatine Monohydrate 100gms </a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61O0Lpv4-PL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/MuscleBlaze-Creatine-Monohydrate-Powder-100/dp/B00LLZ82O4/ref=sr_1_5?crid=FUN5PEVS43HF&keywords=creatine+monohydrate&qid=1684386787&sprefix=creatine+monohydrate%2Caps%2C246&sr=8-5">
+                            MuscleBlaze Creatine Monohydrate, India's Only Labdoor USA Certified Creatine </a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h3>vitamins:</h3>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/41hL6Bymf0L._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/ZEROHARM-Multivitamin-Multimineral-Magnesium-performance/dp/B0B94BJCSV/ref=sr_1_3_sspa?crid=Z272BMZ9WIP2&keywords=vitamins&qid=1684387701&sprefix=vitamins%2Caps%2C280&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&smid=A21G342ZYQ7HI1">
+                            ZEROHARM Whole Food Multivitamin 60 tablets</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/51vRHIuIG5L._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/HealthKart-Multivitamin-Ginseng-Extract-Vegetarian/dp/B01LLLUCAY/ref=sr_1_5?crid=Z272BMZ9WIP2&keywords=vitamins&qid=1684387701&sprefix=vitamins%2Caps%2C280&sr=8-5">
+                            HealthKart HK Vitals Multivitamin for Men and Women</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61ms05Ax8fL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/MuscleBlaze-VITE-Multivitamin-60-Tablets/dp/B00KDFRUGY/ref=sr_1_10?crid=Z272BMZ9WIP2&keywords=vitamins&qid=1684387701&sprefix=vitamins%2Caps%2C280&sr=8-10">
+                            MuscleBlaze MB-Vite Daily Multivitamin with 51 Ingredients and 6 Essential Blends</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61gjUntCotL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/Boldfit-Vitamin-Immunity-Antioxidant-Skincare/dp/B089GSF133/ref=sr_1_14?crid=Z272BMZ9WIP2&keywords=vitamins&qid=1684387701&sprefix=vitamins%2Caps%2C280&sr=8-14">
+                            Boldfit Vitamin C Complex 1000mg Tablet with Amla and Zinc </a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/51VDpkCFerL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/GNC-Multivitamin-Enhances-Formulated-Ingredients/dp/B0B97DPRYR/ref=sr_1_21_sspa?crid=Z272BMZ9WIP2&keywords=vitamins&qid=1684387701&sprefix=vitamins%2Caps%2C280&sr=8-21-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1">
+                            GNC Women's One Daily Multivitamin</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/51mmOsMmSoL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/Vitamins-Natural-Contains-extracts-Capsules/dp/B095X371P2/ref=sr_1_29?crid=Z272BMZ9WIP2&keywords=vitamins&qid=1684387701&sprefix=vitamins%2Caps%2C280&sr=8-29">
+                            Traya Hair Vitamins Capsules, Natural DHT Blocker & Biotin Capsules</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Others:</h3>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/71bYDOsB8CL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/Optimum-Nutrition-BCAA-BCAAs-Endurance/dp/B0BW9QMKZ4/ref=sr_1_1_sspa?keywords=bcaa&qid=1684388203&sprefix=bcaa%2Caps%2C587&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                            Optimum Nutrition BCAA, 5g BCAAs in 2:1:1 Ratio</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61XtVX0PJcL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/Essentials-Servings-Watermelon-Flavour-Supplement/dp/B08XKDZ277/ref=sr_1_2_sspa?keywords=bcaa&qid=1684388203&sprefix=bcaa%2Caps%2C587&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                            Fast&Up BCAA Basic (45 Servings, Watermelon Flavour)  </a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/71oH5VSC0SL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/Muscle-Asylum-BCAA-Servings-L-Tyrosine/dp/B08PYQ875J/ref=sr_1_11?keywords=bcaa&qid=1684388203&sprefix=bcaa%2Caps%2C587&sr=8-11">
+                            Muscle Asylum Bcaa Powder – 0g Sugar Pre/Post & Intra Workout </a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/71WJnQ45mfL._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/GNC-Amp-Gold-BCAA-Advanced/dp/B07YLCRKNJ/ref=sr_1_12?keywords=bcaa&qid=1684388203&sprefix=bcaa%2Caps%2C587&sr=8-12">
+                            GNC AMP Gold Series BCAA Advanced | Fastest Muscle Recovery powder</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61Sg-SzjV0L._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/FAST-UP-EAA-Intra-Electrolyte/dp/B09T3H93NN/ref=sr_1_3_sspa?crid=28KXYOSTCU7L5&keywords=ecaa&qid=1684388405&sprefix=ecaa%2Caps%2C594&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                            FAST&UP EAA Intra - Training/Workout drink Powder(EAAx9)</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+            <div class="tees col-md-2">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61QzpcWCSML._AC_UL600_FMwebp_QL65_.jpg"
+                        class="card-img-top" alt="..." style="height: 30vh;">
+                    <div class="card-body">
+                        <a href="https://www.amazon.in/Cultsport-Spectrum-EAAs-BCAA-Hydration-Essential/dp/B0BFRJ66JB/ref=sr_1_4_sspa?crid=28KXYOSTCU7L5&keywords=ecaa&qid=1684388405&sprefix=ecaa%2Caps%2C594&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                            Cultsport EAA | Full Spectrum EAAs-BCAA, Hydration Blend, Energy Matrix, Keto Friendly</a>
+                    </div>
+                    <button type="button" class="btn btn-warning" onmouseup="cart()">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <p>At the heart of AM|FIT's platform is the World’s First & largest Indian Calorie Tracker, which
+                        allows
+                        users to track their food, exercise and weight, easily via their smartphone or computer while
+                        continuously
+                        analyzing the user’s data and provide powerful insights that ensure that users stay within their
+                        calorie/nutrition budgets. </p>
+                    <div class="contact">
+                        <img loading="lazy" src="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/call.svg"
+                            fetchpriority="low" alt="footer"><a href="tel:+91 85 277 32 632">+91 85 277 32 632</a><br>
+                        <img loading="lazy" src="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/email.svg"
+                            fetchpriority="low" alt="footer">
+                        <a href="mailto:info@Muscleblaze.com">supportamfitxxx@gmail.com</a>
+                    </div>
+                </div>
+                <div class="offset-1 col-md-2 discover">
+                    <span><big><b>Discover</b></big></span><br>
+                    <a href="calculator.html"><span>nutrients calculator</span></a><br>
+                    <a href="caloriecal.html"><span>calorie calculator</span></a><br>
+                    <a href="proteincal.html"><span>protein calculator</span></a><br>
+                    <a href="dietplan.html"><span>diet plan</span></a><br>
+                    <a href="tutorials.html"><span>fitness tutorial</span></a><br>
+                    <a href="blogs.html"><span>blogs</span></a><br>
+                    <a href="products.html"><span>fitness products</span></a><br>
+                </div>
+                <div class="col-md-2 discover">
+                    <span><big><b>Categories</b></big></span><br>
+                    <a href="calculator.html"><span>calculator</span></a><br>
+                    <a href="products.html"><span>products</span></a><br>
+                    <a href="tutorials.html"><span>tutorial</span></a><br>
+                    <a href="blogs.html"><span>blogs</span></a><br>
+                    <a href="dietplan.html"><span>diet plan</span></a><br>
+                </div>
+                <div class="col-md-2 discover">
+                    <span><big><b>Contact Us</b></big></span><br>
+                    <a href="instagram.com"><span>instagram</span></a><br>
+                    <a href="facebook.com"><span>facebook</span></a><br>
+                    <a href="https://twitter.com/amnirbi"><span>twitter</span></a><br>
+                    <a href="linkedin.com"><span>linkedin</span></a><br>
+                    <a href="#"><span>supportamfitxxx@gamil.com</span></a><br>
+                </div>
+                <div class="col-md-2 discover">
+                    <a href="index.html"><span><big><b>Home</b></big></span><br></a>
+                </div>
+            </div>
+        </div>
+        <div class="container social">
+            <div class="row">
+                <ul class="desk-footer__social"><a href="https://instagram.com/muscleblaze/" target="_blank"
+                        rel="noopener noreferrer"><img
+                            data-original="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/insta_new.png"
+                            class="offscreenimage lazy" width=""
+                            src="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/insta_new.png" alt=""
+                            itemprop="" fetchpriority="auto"></a><a href="https://twitter.com/MuscleBlaze"
+                        target="_blank" rel="noopener noreferrer"><img
+                            data-original="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/twitter_new.png"
+                            class="offscreenimage lazy" width=""
+                            src="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/twitter_new.png" alt=""
+                            itemprop="" fetchpriority="auto"></a><a href="https://www.youtube.com/user/muscleblaze"
+                        target="_blank" rel="noopener noreferrer"><img
+                            data-original="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/youtube_new.png"
+                            class="offscreenimage lazy" width=""
+                            src="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/youtube_new.png" alt=""
+                            itemprop="" fetchpriority="auto"></a><a href="https://www.facebook.com/MuscleBlaze"
+                        target="_blank" rel="noopener noreferrer"><img
+                            data-original="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/fb_new.png"
+                            class="offscreenimage lazy" width=""
+                            src="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/fb_new.png" alt="" itemprop=""
+                            fetchpriority="auto"></a><a href="https://www.linkedin.com/company/muscleblaze/"
+                        target="_blank" rel="noopener noreferrer"><img
+                            data-original="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/linkedin_new.svg"
+                            class="offscreenimage lazy" width=""
+                            src="https://img2.hkrtcdn.com/mb/static/media/footer/desktop/linkedin_new.svg" alt=""
+                            itemprop="" fetchpriority="auto"></a></ul>
+            </div>
+        </div>
+        <div class="copyrights row">
+            <p id="footerbranding"><span id="am">AM</span><span id="bar">|</span
+                ><span id="fit">FIT</span></p>
+            <p>All rights reserved &copy; healthifyme.com</p>
+        </div>
+    </div>
+</body>
+
+</html>

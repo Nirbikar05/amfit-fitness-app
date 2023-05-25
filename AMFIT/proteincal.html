@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body style="background-color: rgb(218, 232, 237)">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-0">
+      <div class="container-fluid navbgviolet">
+        <a class="navbar-brand" href="#"
+          ><span id="am">AM</span><span id="bar">|</span
+          ><span id="fit">FIT</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tutorials.html">Tutorials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dietplan.html">Diet-plan</a>
+            </li>
+            <li class="nav-item">
+              <a href="calculator.html" class="nav-link active">Calculator</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container caloform">
+        <form>
+          <div class="row mb-3">
+            <label for="inputage" class="col-sm-2 col-form-label"
+              >What is your age?</label
+            >
+            <div class="col-sm-1">
+              <input type="number" class="form-control" id="age" />
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputheight" class="col-sm-2 col-form-label"
+              >What is your height?(cm)</label
+            >
+            <div class="col-sm-1">
+              <input type="number" class="form-control" id="height" />
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputweight" class="col-sm-2 col-form-label"
+              >What is your weight?(kg)</label
+            >
+            <div class="col-sm-1">
+              <input type="number" class="form-control" id="weight" />
+            </div>
+          </div>
+          <fieldset class="row mb-3">
+            <legend class="col-form-label col-sm-2 pt-0 gender">Gender</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gridRadios"
+                  id="gridRadios1"
+                  value="male"
+                />
+                <label class="form-check-label" for="gridRadios1" id="male">
+                  Male
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gridRadios"
+                  id="gridRadios2"
+                  value="female"
+                />
+                <label class="form-check-label" id="female" for="gridRadios2">
+                  Female
+                </label>
+              </div>
+            </div>
+          </fieldset>
+          <button type="button" class="btn btn-primary sub">Submit</button>
+        </form>
+      </div>
+      <div class="container" id="comment"></div>
+    </main>
+    <div class="container inputs">
+      <div class="row">
+        <div class="dropdown col-md-4">
+          <form action="">
+            <label for="">Choose any food </label>
+            <select name="" id="Foods" onchange="getpro(this.value)">
+              <option value="select">select</option>
+              <option value="0.02">Rice Cooked</option>
+              <option value="0.07">Chapatti</option>
+              <option value="0.04">Cooked Cereal</option>
+              <option value="0.02">Potato</option>
+              <option value="0.09">Dal</option>
+              <option value="0.02">Mixed Vegetables</option>
+              <option value="0.22">Fish</option>
+              <option value="0.25">Mutton</option>
+              <option value="0.13">Egg</option>
+              <option value="0.03">Whole Milk</option>
+              <option value="0.20">Paneer (Whole Milk)</option>
+              <option value="0.009">Butter</option>
+              <option value="0.00">Ghee</option>
+            </select>
+          </form>
+        </div>
+        <div class="dropdown col-md-5">
+          <form action="">
+            <label for="">Choose any cooked food </label>
+
+            <select name="" id="cooked food" onchange="getpro(this.value)">
+              <option value="select">select</option>
+              <option value="0.14">Biryani (Mutton)</option>
+              <option value="0.08">Biryani (Veg.)</option>
+              <option value="0.06">Curry (Chicken)</option>
+              <option value="0.00">Curry (Veg.)</option>
+              <option value="0.13">Fried Fish</option>
+              <option value="0.10">Pulav (Veg.)</option>
+              <option value="0.04">Biscuit (Sweet)</option>
+              <option value="0.06">Cake (Plain)</option>
+              <option value="0.04">Cake (Rich Chocolate)</option>
+              <option value="0.03">Dosa (Plain)</option>
+              <option value="0.07">Pakoras</option>
+              <option value="0.02">Puri</option>
+              <option value="0.03">Samosa</option>
+              <option value="0.03">Vada (Medu)</option>
+            </select>
+          </form>
+        </div>
+        <div class="dropdown col-md-4">
+          <form action="">
+            <label for="">Choose any fruit </label>
+            <select name="" id="fruits" onchange="getpro(this.value)">
+              <option value="select">select</option>
+              <option value="0.003">Apple</option>
+              <option value="0.01">Banana</option>
+              <option value="0.00">Orange</option>
+              <option value="0.006">Grapes</option>
+              <option value="0.008">Mango</option>
+              <option value="0.00">Musambi</option>
+            </select>
+          </form>
+        </div>
+        <div class="dropdown col-md-6">
+          <form action="">
+            <label for="">sweet and beverages</label>
+            <select
+              name=""
+              id="sweet and beverages"
+              onchange="getpro(this.value)"
+              aria-placeholder="hey"
+            >
+              <option value="select">select</option>
+              <option value="0.05">Carrot Halwa</option>
+              <option value="0.002">Jalebi</option>
+              <option value="0.04">Kheer</option>
+              <option value="0.01">Rasgulla</option>
+              <option value="0.05">Beer</option>
+              <option value="0.00">Cola</option>
+              <option value="0.001">Wine</option>
+            </select>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".sub").click(function () {
+          $(".error").hide();
+          var haserror = false;
+          var numReg = /^0|[1-9]\d*$/;
+          var a = $("#age").val();
+          var h = $("#height").val();
+          var w = $("#weight").val();
+
+          if (a > 0 && h > 0 && w > 0) {
+            if (a == "" || h == "" || w == "") {
+              $("#age").before(
+                '<span style="color:red" class="error">please enter age</span></br>'
+              );
+              $("#height").before(
+                '<span style="color:red" class="error">please enter height</span></br>'
+              );
+              $("#weight").before(
+                '<span style="color:red" class="error">please enter weight</span></br>'
+              );
+              haserror = true;
+            } else if (!numReg.test(a) && !numReg.test(h) && !numReg.test(w)) {
+              $("#age").before(
+                '<span style="color:red" class="error">please enter age</span></br>'
+              );
+              $("#height").before(
+                '<span style="color:red" class="error">please enter height</span></br>'
+              );
+              $("#weight").before(
+                '<span style="color:red" class="error">please enter weight</span></br>'
+              );
+              haserror = true;
+            } else {
+              var result = $('input[type="radio"]:checked');
+              if (result.length > 0) {
+                var gen = result.val();
+                if (gen === "male") {
+                  var pro = Math.round(0.8 * w);
+                  $("#comment").html(
+                    "Your daily protein intake should be " + pro + " gram"
+                  );
+                }
+                if (gen === "female") {
+                  var pro = Math.round(0.8 * w);
+                  $("#comment").html(
+                    "Your daily protein intake should be " + pro + " gram"
+                  );
+                }
+              }
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
